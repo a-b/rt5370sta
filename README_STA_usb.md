@@ -79,7 +79,7 @@ Build Instructions:
 
 4> $make
 	# compile driver source code
-	# To fix "error: too few arguments to function ¡¥iwe_stream_add_event"
+	# To fix "error: too few arguments to function Â¡Â¥iwe_stream_add_event"
 	  => $patch -i os/linux/sta_ioctl.c.patch os/linux/sta_ioctl.c
 
 5> $cp RT2870STA.dat  /etc/Wireless/RT2870STA/RT2870STA.dat
@@ -187,7 +187,7 @@ CarrierDetect=0
 			AckPolicy1~4		Ack policy which support normal Ack or no Ack
 								(AC_BK, AC_BE, AC_VI, AC_VO)		
 	
-	All WMM parameters do not support iwpriv command but ¡¥WmmCapable¡¦¡¦, 
+	All WMM parameters do not support iwpriv command but Â¡Â¥WmmCapableÂ¡Â¦Â¡Â¦, 
 	please store all parameter to RT2870STA.dat, and restart driver. 	
 
 -----------------------------------------------
@@ -371,13 +371,13 @@ syntax is 'Param'='Value' and describes below.
 @> HT_MpduDensity=value
 	value (based on 802.11n D2.0)
 		0: no restriction
-		1: 1/4 £gs
-		2: 1/2 £gs
-		3: 1 £gs
-		4: 2 £gs
-		5: 4 £gs
-		6: 8 £gs
-		7: 16 £gs
+		1: 1/4 Â£gs
+		2: 1/2 Â£gs
+		3: 1 Â£gs
+		4: 2 Â£gs
+		5: 4 Â£gs
+		6: 8 Â£gs
+		7: 16 Â£gs
 
 @> HT_BW=value
 	value
